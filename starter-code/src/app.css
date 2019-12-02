@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+.MyComponent {
+  margin: 1rem;
+  background-image: url('/images/react-logo.svg');
+  background-color: rgb(15, 15, 94);
+  color: white;
+  width: 100%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.MyComponent button{
+border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.BottomComponent {
+  display: flex;
+  justify-content: space-between;
+background: white;
+color: rgb(31, 30, 30);
+padding: 20px;
+margin: 20px;
+}
+
+.nav-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
